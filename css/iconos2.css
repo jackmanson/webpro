@@ -1,0 +1,137 @@
+.flexible2{
+    height: auto;
+	position: relative;
+	top: 150px;
+	bottom: ;
+	left: ;
+	right: ;
+}
+
+.contenedor{
+    width: auto;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+}
+
+.flexible2 .contenedor,.circulo,h2,h4{
+    height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.circulo{
+	width: 200px;
+	height: 200px;
+	margin: 25px;
+}
+
+.circulo h3{
+	font-weight: 600;
+}
+
+.flexible2 h2{
+    margin: 5px;
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.flexible2 h2:hover{
+	font-size: 3em;
+	font-weight: 700;
+	color: #ff5400;
+}
+
+.flexible2 div img{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: center;
+	background-position: center center;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.flexible2 div img:hover{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: center;
+	background-position: center center;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 0px 50px #009FFF;
+	border: 5px solid #fff;
+}
+
+@media (max-width: 1000px){
+	.flexible2{
+	position: relative;
+	top: 70px;
+	bottom: ;
+	left: ;
+	right: ;
+	}
+
+	.circulo{
+	width: 200px;
+	height: 290px;
+	margin: 25px;
+	}
+
+	.flexible2 .contenedor{
+		width: 70%;
+		margin-left: 15%;
+	}
+}
+
+@media (max-width: 800px){
+	.flexible2{
+	position: relative;
+	top: 70px;
+	bottom: ;
+	left: ;
+	right: ;
+	}
+
+	.circulo{
+	width: 200px;
+	height: 290px;
+	margin: 25px;
+	}
+    
+    .flexible2 div img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: center;
+        background-position: center center;
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+    }
+    
+    .flexible2 .contenedor{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 500px){
+	.flexible2{
+	position: relative;
+	top: 70px;
+	bottom: ;
+	left: ;
+	right: ;
+	}
+
+	.circulo{
+	width: 200px;
+	height: 290px;
+	margin: 25px;
+	}
+}
+

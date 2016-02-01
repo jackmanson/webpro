@@ -1,0 +1,23 @@
+@import url(iconos2.css);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #eaebed;
+}
+
+section div article .dato{
+	position: relative;
+	top: 40px;
+	width: 50%;
+	margin: 100px;
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 30px;
+	margin-left: 25%;
+	box-shadow: 
+}
+
+
+@media (min-width: 1024px){
+
+}

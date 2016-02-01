@@ -1,0 +1,301 @@
+.banner-contenedor{
+	position: relative;
+	top: 320px;
+	width: 100%;
+    height: 450px;
+    background: #f7f7f8;
+/*
+	background: url(../img/banner02.jpg) center fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+}
+
+
+.banner-contenedor-interno{
+    width: 60%; 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+}
+
+.banner-contenedor .contenedor-parte1{
+    position: relative;
+    top: 10px;
+    width: 45%;
+    width: auto;
+}
+
+
+
+.banner-contenedor h2{
+    color: #434343;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.banner-contenedor h2:hover{
+	font-size: 3em;
+	font-weight: 600;
+	color: #5a8cc9;
+}
+
+.banner-contenedor p{
+	letter-spacing: ;
+	word-spacing: ;
+	line-height: 2em;
+	color: #434343;
+}
+
+.banner-contenedor div{
+	margin: 20px;
+}
+
+/*
+.banner-contenedor video{
+	margin: 10px;
+	border: 1px solid #fff;
+	padding: 10px;   
+}
+*/
+
+.banner-contenedor img{
+    width: 500px;
+    margin: 10px;
+    border: 1px solid #434343;
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+/* botones interactivos */
+.botones-ancho{
+	width: 90%;
+}
+
+.banner-contenedor div div div{
+	position: relative;
+	top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.banner-contenedor div div{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.botones{
+	width: 20px;
+	height: 20px;
+	margin: 25px;
+	padding: 20px;
+	border: 1px solid #434343;
+	border-radius: 20%;
+	color: #434343;
+}
+
+.botones:hover{
+	background-color: rgba(83,136,198,.5);
+}
+
+.banner-contenedor span{
+	font-size: 2em;
+	color: #434343;
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+
+/*
+@media (max-width: 740px){
+	.banner-contenedor{
+	position: relative;
+	top: 140px;
+	width: 100%;
+	height: auto;
+	background: url(../img/banner02.jpg) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	}
+
+	.banner-contenedor video{
+	width: 100%;
+	position: relative;
+	top: 45px;
+	border: 1px solid #fff;
+	padding: 10px;
+	}
+
+} */
+
+/*
+@media (min-width : 1200px){
+	.banner-contenedor{
+	position: relative;
+	top: 140px;
+	width: 100%;
+	height: auto;
+	background: url(../img/banner02.jpg) center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	}
+
+	.banner-contenedor video{
+	position: relative;
+	top: 45px;
+	border: 1px solid #fff;
+	padding: 10px;
+	}
+
+}
+*/
+
+@media (max-width: 600px){
+    .banner-contenedor{
+        position: relative;
+        top: 250px;
+        width: 100%;
+        height: auto;
+/*
+        background: url(../img/banner02.jpg) center fixed; /* fondo de caja 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+*/
+        box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+    }
+
+    .banner-contenedor-interno{
+        box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner-contenedor .contenedor-parte1{
+        width: 90%;
+        
+    }
+    
+    .banner-contenedor .contenedor-parte2{
+        height: auto;  
+    }
+
+
+    .banner-contenedor video{
+       
+        border: 1px solid #fff;
+        padding: 10px;
+
+
+    }
+    
+    .banner-contenedor div div div{
+        position: relative;
+        top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+
+}
+
+@media (max-width: 850px){
+    .banner-contenedor{
+        position: relative;
+        top: 250px;
+        width: 100%;
+        height: auto;
+
+
+        box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+    }
+
+    .banner-contenedor-interno{
+        box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner-contenedor .contenedor-parte1{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .banner-contenedor .contenedor-parte2{
+        width: 100%;
+        
+    }
+
+}
+
+@media (max-width: 1000px){
+    .banner-contenedor{
+	position: relative;
+	top: 120px;
+	width: 100%;
+/*
+	background: url(../img/banner02.jpg) center fixed; /
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+    }
+    
+    .banner-contenedor-interno{
+    width: 95%; 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+    }
+
+    .banner-contenedor .contenedor-parte1{
+        width: 90%;
+        
+    }
+    
+    .banner-contenedor .contenedor-parte2{
+        width: 90%;
+        
+    }
+
+}
+
+@media (max-width: 1600px){
+    .banner-contenedor-interno{
+    width: 90%; 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+}
+
+    .banner-contenedor .contenedor-parte1{
+        width: 45%;
+        width: auto;
+        justify-content: center;
+    }
+    
+    .banner-contenedor .contenedor-parte2{
+        width: 45%;
+        
+    }
+    
+
+}

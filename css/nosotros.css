@@ -1,0 +1,37 @@
+section{
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    margin: 50px;
+}
+
+section h3{
+    color: #098ee2;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+section p{
+    margin: 20px 10px;
+}
+
+section article{
+    line-height: 1.8em;
+}
+
+section article ul{
+    margin-left: 20px;
+}
+
+section h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #098ee2;
+    margin-bottom: 35px;
+}
+
+section h2:hover{
+    color: #ff0e99;
+}

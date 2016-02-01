@@ -1,0 +1,135 @@
+/* AQUI INICIA LO RESPECTO A LA BARRA GRIS*/
+.barra-gris{ /* barra gris antes de la barra negra de navegacion */
+	width: 100%;
+	background: #636363;
+	position: fixed;
+	top: 0px;
+	height: 30px;
+	z-index: 100;
+}
+
+.barra-gris ul{
+	display: flex;
+	list-style: none;
+	margin-top: 5px;
+	margin-right: 5%;
+	justify-content: flex-end; /* Ajusta los elementos de izquierda a derecha  */
+	align-items: center; /* El centro los itens en sentido vertical */
+	box-sizing: border-box; /* mantiene los elementos dentro de  la caja */
+}
+
+.barra-gris li{
+	margin-left: 15px;
+}
+
+.barra-gris a,span,li{
+	color: #cccccc; /* color de texto*/
+	text-decoration: none; /* Le elimina el subrayado de los enlaces o link */
+}
+
+.barra-gris a:hover,li:hover,span:hover{ /* al pasar el mouse cambiar de color los enlaces */
+	color: #ECECEC;
+}
+/* AQUI TERMINA LO RESPECTO A LA BARRA GRIS*/	
+
+
+header{
+	margin: 0; /* margenes globales para todo el header */
+	padding: 0; /* margen interno para todo el header */
+	position: fixed;
+	top: 30px;
+	width: 100%;
+	height: 80px;
+	background: #1F1F1F;
+	color: #C4C4C4;
+	z-index: 2100; /* Esto es para la caja o el objeto este simpre arriba de los demas */
+	/* 
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	box-sizing: border-box;
+	 */
+/*
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	*/
+}
+
+header a img{ /* estilos del logo de artex */
+	height: 60px;
+	position: absolute;
+	top: 9px;
+	left: 5%;
+	
+}
+
+/* empuja todo el nav a la izuierda
+header nav{
+	margin-right: 20%;
+}
+*/
+
+header nav{ /* posicion del navegador home y sus categorias */
+	position: absolute;
+	top: 33px;
+	left: 22%;
+	width: 56%;
+}
+
+header nav li{ /* empuja el menu de home y categorias a un poco a la deracha */
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+header form{ /* Posicion del buscador */	
+	position: absolute;
+	top: 15px;
+	left: 22%;
+	color: #fff;
+	width: 56%;
+}
+
+header form input[type="text"]{ /* caracteristicas del buscador*/
+	margin-bottom: 0;
+	width: 100%;
+	height: ;
+	padding: 5px;
+	border: 3px;
+	/* border-color: #F5EA8E; */
+	color: #000; /* Color dentro de la caja de texto del buscardor */
+	border-radius: 5px;
+}
+
+header .menu ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	/*float: right;*/
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+
+}
+
+.menu a{
+	/* display: block; */
+	/* padding: 20px 35px; */
+	color: #C4C4C4; /* Color del menu de navegacion */
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+.menu a:hover{
+	color: #F5AF41;
+}
+
+
+header img[class="carrito"]{/* Posicion del carrito */
+	position: absolute;
+	top: ;
+	bottom: ;
+	left: 90%;
+	right: ;
+}
+

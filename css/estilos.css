@@ -1,0 +1,248 @@
+@import url(iconos.css);
+@import url(iconos2.css);
+@import url(banner.css);
+@import url(imagenes-interactive.css);
+@import url(banner2.css);
+@import url(banner3.css);
+@import url(logofin.css); /*  por ahora no esta activo*/
+@import	url(menu.css);
+@import url(registro.css);
+@import url(actividad.css);
+@import url(busqueda.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #eaebed;
+}
+
+.image-nave{/*imagen de fondo de navegacion*/
+	width: 100%;
+	
+	position: relative;
+	top: 110px;
+	bottom: ;
+	left: 0px;
+	right: ;
+	/*
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	*/
+}
+
+.blanco{/*color de letras o fuente*/
+	color: #fff;
+}
+
+.celeste{
+	color: #009FFF;
+}
+
+.naranja{
+	color: #f47005;
+}
+
+.naranja-claro{
+	color: #ffa406;
+}
+
+.light{
+	font-style: 300;
+}
+
+.normal{
+	font-style: 400;
+}
+
+.bold{
+	font-style: 700;
+}
+
+.sombra{
+	box-shadow: 0px 0px 15px #000;
+}
+
+.horario{/*Formato de horario text*/
+	text-align: left;
+	margin-top: 16px;
+	line-height: 1.4em;
+	letter-spacing: .1em;
+    word-spacing: ;
+	font-style: 400;
+}
+
+.retraso1{/*Espacio de tiempo aplicado a animated*/
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay:1s;
+}
+
+.retraso2{/*Espacio de tiempo aplicado a animated*/
+	-webkit-animation-delay:1.5s;
+	-moz-animation-delay:1.5s;
+	animation-delay:1.5s;
+}
+
+.retraso3{/*Espacio de tiempo aplicado a animated*/
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+}
+
+
+/* ESTILOS FOOTER */
+
+footer{
+    height: auto;
+    position: relative;
+    top: 450px;
+}
+
+
+.footer-servicios{/*formato de primera parte de footer*/
+	background-color: #edc627;
+	/* width: 100%;*/
+	height: auto;
+	position: relative;
+	top:150px;
+	bottom: 0;
+    box-sizing: border-box;
+}
+
+.servicios{
+    width: 90%;
+    margin-left: 5%;
+    padding: 15px 0px;   
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.servicios li, .horario li{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.servicios a{
+	color: #000;
+}
+
+.servicios ul{
+    width: 20%;
+    
+    margin: 15px;
+}
+
+footer .horario{
+	color: #000;
+    width: 80%;
+    height: auto;
+    margin-left: 10%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+footer .horario-parte1{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.horario-parte1 ul{
+    width: 50%; 
+}
+
+footer .horario-parte2{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer-razon a{
+	color: #fff;
+}
+
+.horario-parte2 span{
+    width: 100%;
+    margin: 5px;
+    padding: 20%;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+}
+
+
+.footer-razon{
+	padding: 20px;
+	background-color:#f47005;
+	width: 100%;
+	height: auto;
+	position: relative;
+	top:150px;
+	text-align: center;
+	color: rgba(255,255,255,.7);
+	letter-spacing: .1em;
+	word-spacing: ;
+	line-height: 1.5em;
+}
+
+.footerFin{
+	padding: 15px;
+	background-color:#000;
+	width: 100%;
+	height: 70px;
+	position: relative;
+	top:140px;
+	bottom: 0;
+	text-align: center;
+	color: rgba(255,255,255,.7);
+	letter-spacing: .1em;
+	word-spacing: ;
+	line-height: 1em;
+}
+
+
+
+@media (max-width: 800px){
+
+    
+    footer .horario{
+    width: 100%;
+        margin: auto;
+    }
+    
+    .horario-parte1 ul{
+    width: 500px; 
+    }
+    
+    .servicios ul{
+        width: 500px;;
+    }
+    
+    footer .horario-parte2{
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    }
+}   

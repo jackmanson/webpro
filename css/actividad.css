@@ -1,0 +1,45 @@
+.caja-actividad{
+	width: 300px;
+	background: #fff;
+	position: fixed;
+	top: 37px;
+	right: 15%;
+	color: #000;
+	z-index: 3000;
+	border-radius: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.caja-actividad{
+	display: none;
+}
+
+.caja-actividad li{/* Color dentro del formulario de actividad*/
+	color: #000;
+}
+
+.caja-actividad ul{
+	/*text-decoration: none;
+	list-style: none;*/
+	margin-left: 17px;
+}
+
+
+.caja-actividad form button span{
+	margin: 1px;
+}
+
+.caja-actividad span{
+	color: #fff;
+}
+
+.caja-actividad form{
+	margin: 35px;
+}
+
+.caja-actividad form button{
+	width: 100%;
+}

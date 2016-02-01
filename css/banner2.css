@@ -1,0 +1,16 @@
+.banner2{
+	width: 100%;
+	position: relative;
+	top: 480px;
+	/* left: 0px; */
+}
+
+
+@media (max-width: 600px;){
+	.banner2{
+	position: relative;
+	top: 200px;
+	}
+
+}
+

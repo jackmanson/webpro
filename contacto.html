@@ -1,0 +1,271 @@
+<!--
+PAGINAS A TENER EN CUENTA A LA HORA DE CREAR PAGINAS WEB
+
+PARA COLOR:  https://color.adobe.com/es/Gama1-color-theme-4051455/
+PARA ATRIBUTOS CSS:  http://getbootstrap.com/css/#responsive-utilities
+					http://getbootstrap.com/getting-started/#download
+					http://getbootstrap.com/css/#grid
+					http://www.bootstrapcdn.com/ 
+					http://www.bootstrapcdn.com/
+					http://www.w3schools.com/css/default.asp
+					http://librosweb.es/libro/css_avanzado/
+					http://bxslider.com/options      esto es para crear carrusell
+
+PROPIEDADES CSS: http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html
+VIDEO ACORTAR WEB: https://www.youtube.com/watch?v=m1lEZtHndyA
+					https://www.youtube.com/watch?v=ifD_0M49_Bg
+					https://bitly.com/a/sign_up
+PARA ANIMACION CSS:  http://daneden.github.io/animate.css/
+PARA HACER DEGRADES: http://www.colorzilla.com/gradient-editor/
+PARA MAS CSS: http://css3generator.com/
+FONT:  https://www.google.com/fonts#
+
+CRITERIOS RESPONSIVOS: 4 TIPOS DE COLUMNAS 
+col-xs-*  para celulares
+col-sd-*  para tablet
+col-md-*  para computadores
+col-lg-*  para computadoras mas grandes de escritorio
+-->
+<!-- para agregar una hoja en blanco en un enlace se usa la etiqueta
+<a target="_blank" href=""> contenido </a>
+
+Para agregar Java Script se hace el llamado en el body con la siguiente etiqueta:
+
+<script src="archivo.js"></script>
+
+PARA ENVIAR CORREO EMAIL:
+<a href="mailto:contacto@hotmai.com" title="enviar correo">icono de mensaje</a>
+No es la mejor manera de hacerlo pero existen otras maneras de enviar para que no detexten tu correo y te bombardeen con span.
+
+<form>
+	<label for="nombre">Ingrese su nombre:</label>
+	<input type="text" placeholder="Escribe tu nombre" size="10 pero esta es opcional" maxlength="2" name="nombre" id="nombre" class=""/>
+	
+	<input type="password">
+	<input type="email" name="" id=""/>
+	<br>
+
+	<input type="checkbox" name="" id="">camisa
+	<input type="checkbox" name="" id="">polo
+	<br/>
+
+	<input type="radio" name="" id="">Mujer
+	<input type="radio" name="" id="">Hombre
+	
+	<input type="button" value="Acepto">
+		
+	<input type="submit" value="Enviar">
+
+	<select mame="" id="">
+		<option value="Mexico">Mexico</option>
+		<option value="Peru">Peru</option>
+	</select>
+
+	<input type="color" name="" id="">
+	<input type="range" name="" id="">
+
+</form>
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>BellaStampa</title>
+	<meta name="viewport" content="device-width, user-scale=no, initial=1.0, maximun-scale=1.0, minimun-scale=1.0"/>
+	<meta charset="utf-8"/>
+	<meta name="keyswords" description="tranasfer, estampado, planchado, confeccion, sublimado, papel transfer, bellastampa, impresion offset, litografia, laminas transfer, venta de papel transfer, diseño, tinta transfer, tinta sublimado, insumos transfer, papel sublimado"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+	<!-- jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/contacto.css"/>
+	<link rel="stylesheet" href="css/estilos.css"/>
+	<link rel="stylesheet" href="css/fontello.css"/>
+	<link rel="shortcut icon" type="image/png" href="img/Logo_iso_icon.png"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic,800' rel='stylesheet' type='text/css'>
+
+	<!--http://bxslider.com/options-->
+</head>
+<body>
+    
+    <!-- Inicio de carrusell Nº1 -->
+	<div class="image-nave">
+		<ul class="bxslider">
+		  <li><img src="img/carrusel02.jpg"/></li>
+		  <li><img src="img/carrusel03.jpg"/></li>
+		  <li><img src="img/carrusel04.jpg"/></li>
+		  <li><img src="img/carrusel05.jpg"/></li>
+
+		  <li><img src="img/carrusel07.jpg"/></li>
+		  <li><img src="img/carrusel08.jpg"/></li>
+		</ul>
+			<script type="text/javascript">
+				$(document).ready(function(){
+				  $('.bxslider').bxSlider(
+				  		{slideWidth: 2500, auto: true
+  						}
+				  	);
+				});
+			</script>
+	</div> <!-- fin del carrusell -->
+
+    <div class="barra-gris"></div><!-- Recuadro gris oscuro antes de la barra de navegacion -->
+
+    <!-- inicia header -->
+	<header class="">
+		<!-- Inicia header conteniendo barra negra de navegacion  -->
+		<a href="index.html"><img src="img/BellaStampaLogo02.png" class="animated flip"/></a>
+		<input type="checkbox" id="btn-menu">
+		<label for="btn-menu" class="icon-menu"></label>
+		<nav class="menu">
+			<ul>
+				<li><a href="contacto.html">Contacto</a></li>
+				<li class="submenu"><a href="#">Productos<span class="icon-down-dir"></span></a>
+					<ul>
+						<li><a href="#">sub Item 1</a></li>
+						<li><a href="#">sub Item 2</a></li>
+						<li><a href="#">sub Item 3</a></li>
+					</ul>
+				</li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li class="submenu"><a href="#">Catalogo<span class="icon-down-dir"></span></a>
+					<ul>
+						<li><a href="#">sub Item 1</a></li>
+						<li><a href="#">sub Item 2</a></li>
+						<li><a href="#">sub Item 3</a></li>
+						<li><a href="#">sub Item 4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+    <!-- termina el header -->
+	
+	<!--Aqui empieza el cuerpo de la pagina-->
+	<section class="">
+
+		<div class="">
+			<article class="center-block">
+
+					<article class="dato">
+						<p class="text-center">Tel.: (511) 437-1514</p>
+						<p class="text-center">gtorreblanca@bellastampa.com - rachelrmp@hotmail.com</p>
+						<p class="text-center">Móvil: (511) 953 562 483  -  (511) 954 186 927</p>
+						<p class="text-center">Av. Separadora Industrial 130 - Urb. Los Alamos - Salamanca  - Ate </p>
+						<p class="text-center">Lima   -  Perú</p>
+						<p class="text-center">© Copyright 2010 -  2015</p>
+					</article>
+			</article>
+			<div class="mapa">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5772144113776!2d-76.98816590000001!3d-12.07258389999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c637f73f3cb7%3A0x7ab8dcc673c516f4!2sSeparadora+Industrial+130%2C+Lima+15022!5e0!3m2!1ses-419!2spe!4v1440516731742" width="100%" height="600" frameborder="0" style="border:0" class="center-block" allowfullscreen></iframe>
+			</div>
+		</div>
+
+	</section>
+	<!-- fin de seccion -->
+
+
+
+	<!--Aqui empieza el pie de la pagina-->
+	<footer class="">
+		<div class="footer-servicios">
+			<div class="servicios">
+				<ul class=""><strong>Servicio Serigrafía</strong>
+					<li>Plastisol</li>
+					<li>Alto Relieve</li>
+					<li>Dischare</li>
+					<li>Covertura</li>
+				</ul>
+				<ul class=""><strong>Laminas Transfer</strong>
+					<li>Papel transfer</li>
+					<li>Laminas </li>
+					<li>Repujado</li>
+					<li></li>
+				</ul>
+				<ul class=""><strong>Otros Servicios</strong>
+					<li>Volantes</li>
+					<li>Afiches</li>
+					<li></li>
+					<li></li>
+				</ul>
+				<ul class=""><strong>Acerca de Nosotros</strong>
+					<li>Misión</li>
+					<li>Visión</li>
+					<li>Clientes</li>
+					<li></li>
+				</ul>
+				<!-- <ul class="">
+					<li><strong>Home</strong></li>
+					<li><strong>Preguntas Frecuentes</strong></li>
+					<li></li>
+					<li></li> 
+				</ul>-->
+			</div>
+			<div class="">
+				<div class="horario">
+					<div class="horario-parte1">
+						<ul class="">
+							<li class=""><strong>Horario de Atención</strong></li>
+							<li>Lunes a Viernes 9:00 a.m. - 7:00 p.m.</li>
+						</ul>
+						<ul class="">
+							<li><strong>Horario de Entregas</strong></li>
+							<li>Lunes a Viernes 3:00 p.m. - 6:00 p.m.</li>
+						</ul>
+					</div>
+					<div class="horario-parte2">
+				        <div class="">
+				            <a href="verificar.html">
+								<span class="icon-facebook"></span>
+				            </a>
+				        </div>
+				        <div class="">
+				            <a href="index.html">
+				                <span class="icon-youtube"></span>
+				            </a>
+				        </div>
+				        <div class="">
+				            <a href="frecuentes.html">
+								<span class="icon-mail-alt"></span>
+				            </a>
+				        </div>
+                        <div class="">
+				            <a href="imensaje.html">
+								<span class="icon-help"></span>
+				            </a>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-razon">
+			<div class="container">
+					<article class="text-center">
+						<p>HOME | CONTACTO<br/>
+						Av. Separadora Industrial 130 - Urb. Los Alamos - Salamanca  - Ate - Lima   -  Perú<br/>
+						Tel.: (511) 437-1514 - Móvil: (511) 953 562 483  -  (511) 954 186 927<br/>
+						gtorreblanca@bellastampa.com - rachelrmp@hotmail.com
+					</article>
+			</div>
+		</div>
+		<div>
+			<article class="footerFin">
+				<br/>
+				<p>   © Copyright 2010  -  2015   </p>
+			</article>
+		</div>
+	</footer>
+
+</body>
+</html>

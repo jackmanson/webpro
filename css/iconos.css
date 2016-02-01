@@ -1,0 +1,59 @@
+.flexible{
+    width: auto;
+	position: relative;
+	top: 500px;
+	bottom: ;
+	left: ;
+	right: ;
+    
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box; /* Esto es para que los elementos se mantengan en la caja */
+	flex-wrap: wrap;
+}
+
+
+
+.caja{
+    display: block;
+    justify-content: center;
+	align-items: center;
+	margin: 30px;
+	text-align: center;
+	width: 150px;
+    justify-content: center;
+    box-sizing: border-box;
+} 
+
+.icono-flotante{ /* este es el contenedor texto y circulo */
+	margin: 15%;
+	width: 70%;
+	height: 100px;
+	background-color: #ddd;
+	border-radius: 50%;
+	position: relative;
+	
+}
+
+.icono-interior{ /* estes es el icono con circulo*/
+	font-size: 30px;
+	padding: 0;
+	position: absolute;
+	top: 29%;
+	bottom: ;
+	left:30%;
+	right: ;
+}
+
+.icono-flotante:hover{ /* este es el contenedor texto y circulo */
+	/*background-color: #ddd;*/
+	/*border-radius: 50%;*/
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 50px #009FFF;
+}
+
+
+
+
+

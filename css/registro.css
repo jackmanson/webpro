@@ -1,0 +1,47 @@
+.caja-registro{
+	width: 300px;
+	background: #fff;
+	position: fixed;
+	top: 37px;
+	right: 7%;
+	z-index: 3000;
+	border-radius: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.caja-registro{
+	/*cursor: pointer;*/
+	display: none;
+}
+
+
+
+.caja-registro form button span{
+	margin: 1px;
+}
+
+.caja-registro span{
+	color: #fff;
+}
+
+.caja-registro form{
+	margin: 35px;
+}
+
+.caja-registro form input[name="correo"],input[name="clave"]{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 30px;
+	padding: 5px;
+}
+
+.caja-registro form button{
+	width: 100%;
+}
+
+.caja-registro form span[class="margenderecho"]{
+	margin-left: 26px;
+}
